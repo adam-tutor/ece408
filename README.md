@@ -1,3 +1,11 @@
+The optimizations published here are as follows:
+Opt1 - Tiled shared memory convolution
+Opt2 - Shared memory matrix multiplication and input matrix unrolling
+Opt4 - Weight matrix (kernel values) in constant memory
+Opt5 - Tuning with restrict and loop unrolling (considered as one optimization only if you do both)
+Opt6 - Sweeping various parameters to find best values (block sizes, amount of thread coarsening)
+Opt10 - Fixed point (FP16) arithmetic. (note this can modify model accuracy slightly)
+
 # ECE408/CS483 Final Project
 
 ## Introduction
